@@ -1,0 +1,115 @@
+<HTML>
+	<head>
+		<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 720px)' href="template_mobile.css">
+		<link rel="stylesheet" type="text/css" media='screen and (min-device-width: 721px)' href="template_desktop.css">
+		
+		<link rel="stylesheet" type="text/css" media='screen and (min-device-width: 721px)' href="template_node_desktop.css">
+		<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 720px)' href="template_node_mobile.css">
+		
+		<link rel="stylesheet" type="text/css" href="template.css">
+		
+		<title>Resume</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="./website.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<nav>
+		<span id="title">Jason Wong, <span>ECE 1T6 at </span>University of Toronto</span>
+		<!--<div class= "headerRight">Single Page | Multi Page</div>
+		<div class= "headerRight">About This Website</div>
+		<div class= "headerRight"><< Font Size: >></div>-->
+
+		<span id="navBar">
+			<div id="mobileMenu">Menu</div>
+			<a class="headerRight" href= "./index.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Home</a>
+			<a class="headerRight" href= "./about.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">About Me</a>
+			<a class="headerRight" href= "./projects.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Projects</a>
+			<a class="headerRight" href= "./courses.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Courses</a>
+			<a class="headerRight" href= "./resume.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Resume</a>
+			<a class="headerRight" href= "./links.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Links</a>
+		</span>
+	</nav>
+
+
+	<body>
+		<header><img src="./icons/resume_small.png" height="60px">Resume</header>
+		<h2>Availabe in both HTML (for those without Adobe Reader) and PDF (for reading offline)</h2> 
+
+		To view my resume in either format, click on the corresponding links: 
+
+		<br>
+		<a class="mainText" target="_blank" href="./resume_text.html">View in HTML ></a>
+		<a class="mainText" target="_blank" href="/jasonwong2810/CV-Jason_Wong.pdf">Downoload as PDF ></a>
+
+
+		<p>In addition to viewing my resume and my experiences, you can also contact me via my LinkedIn Profile: 
+		<br><a class="mainText" href="http://www.linkedin.com/pub/jason-wong/67/635/596">View LinkedIn profile ></a> 
+
+		<p>Below are some of the experiences I had from work
+		<!--<div class="subTitle">Personal Experience</div>-->
+		<div>
+			<article>
+				<h3>Summer 1T4:</h3>
+				<aside> 
+				<h4>Summer Research Volunter</h4>
+				I will be working under Professor W.T. Ng under the VLSI Research Group. I will be under the supervision of PhD Candidate Andrew Shorten. The research is determining the relationship between the gate current (ig) and collector current (ic) of IGBTs (insulated gate bipolar transistor- a hybrid between BJTs and MOSFETs) that can be as 'live' feedback in IGBT applications. IGBTs are currently used in DC-DC converters and require external components to 'stabalize' the current to mitigate power loss. 
+
+				<p>From this experience, my goal is to:
+					<ol>
+						<li>Become more familiar with electronic datasheets for components
+						<li>Become fluent and familiar with circuit simulation programs (HSpice and Altium)
+						<li>Understand PCB (printed circuit board) design conventions and rules
+						<li>Understand the practical limitations of transistors	
+					</ol>
+				</aside>
+					<img src="./Images/PCB.png" class="activity">
+			</article>
+				
+		</div>
+		<!--<div class="horizontalLine"></div>-->
+		
+		<article>
+			<h3>Technical Skills </h3>
+			<aside>
+			I have experience in working with IDEs (Netbeans, Eclipse and XCode), photo-maniuplating software (GIMP and Adobe Photoshop). My skills include the knowledge of programming languages C/C++ and (web) langauges HTML, CSS, Javascript and Jquery
+			</aside>
+		</article>
+
+		<nav class="mobileNav" style="background-color: white; position: relative; bottom: 5px border:none;">
+			<a href= "./about.html"><img src="./icons/about.png"></a>
+			<a href= "./projects.html"><img src="./icons/projects.png"></a>
+			<a href= "./courses.html"><img src="./icons/courses.png"></a>
+			<a href= "./resume.html"><img src="./icons/resume.png"></a>
+			<a href= "./links.html"><img src="./icons/links.png"></a>
+		</nav>
+
+		<footer>
+		<!--contact-->
+		<section>
+			<h1>Contact</h1>
+			<span><a href="http://ca.linkedin.com/pub/jason-wong/67/635/596/">LinkedIn</a></span> |
+			<span><a href="http://twitter.com/jasonwong_94">Twitter</a></span>
+			<br>
+			<span>jaw[dot]wong[at]mail[dot]utoronto[ca]</span> |
+			<span>416-624-7250</span>
+		</section>
+	
+		<!--info-->
+		<section> 
+			<h1>Information</h1>
+			<span><a href="http://ece.utoronto.ca">Electrical and Computer Engineering</a></span> |
+			<span>About This Site</span> 
+		</section>
+
+		<!--copyright -->
+		<section style="border-top-style:solid; border-color:white; border-width:1px">
+	
+		<span style="float:left">Site developed from scratch with lots of ECE love</span>
+		<span style="float:right">Copyright, Jason Wong</span>
+		</section>
+		</footer>
+
+	</body>
+</HTML>

@@ -1,0 +1,157 @@
+<HTML>
+	<head>
+		<link rel="stylesheet" type="text/css" media='screen and (min-device-width: 721px)' href="template_desktop.css">
+		<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 720px)' href="template_mobile.css">
+		
+		<link rel="stylesheet" type="text/css" media='screen and (min-device-width: 721px)' href="template_node_desktop.css">
+		<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 720px)' href="template_node_mobile.css">
+
+		<link rel="stylesheet" type="text/css" href="template.css">
+
+		<title>Links</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="./website.js"></script>	
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body onload="createLink()">
+		<nav>
+			<span id="title">Jason Wong, <span>ECE 1T6 at </span>University of Toronto</span>
+		<!--<div class= "headerRight">Single Page | Multi Page</div>
+		<div class= "headerRight">About This Website</div>
+		<div class= "headerRight"><< Font Size: >></div>-->
+
+			<span id="navBar">
+				<div id="mobileMenu">Menu</div>
+				<a class="headerRight" href= "./index.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Home</a>
+				<a class="headerRight" href= "./about.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">About Me</a>
+				<a class="headerRight" href= "./projects.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Projects</a>
+				<a class="headerRight" href= "./courses.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Courses</a>
+				<a class="headerRight" href= "./resume.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Resume</a>
+				<a class="headerRight" href= "./links.html" onmouseover="highlightMenu(this)" onmouseleave="unhighlightMenu(this)">Links</a>
+			</span>
+		</nav>
+
+		<header class="pageTitle"><img src="./icons/links_small.png" height="60px">Links</header>
+
+		<h1>Academic </h1>
+			<summary>
+			Useful sites of that will help you survive engineering! From past papers to useful equations (including tables of Laplace transforms!) These sites will prove to be very helpful in the engineering world
+			</summary>
+
+			<!--<aside id="academic">
+				<span>Category:</span>
+				<span onmousedown="selectCategory('skule')">Skule</span> 
+				<span onmousedown="selectCategory('professors')">Professors</span>
+			</aside>-->
+
+			<article class="link">
+				<span class="subSectionTitle">Skule</span>
+					<h3>Past papers</h3> 
+					<code style="float:left">courses.skule.ca</code>
+					<span>Stores past papers and sometimes solutions. The number one website every UofT engineer should know! (except leedurs.skule.ca and skule.ca)</span>
+
+					
+					<h3>w3Schools</h3>
+					<code>w3schools.com</code>
+					<span>The essential guide in creating, designing and building your own webpage. Starts with the basics, such as HTML, and progresses to more advanced topics, such as CSS, jQuery and Javascript. Useful for those interested in website design</span>
+			</article>
+
+			<!--<article id="professors" style="display: none">
+				<div class="box">
+					<h1>Jason Anderson</h1> 
+					<p><i>janders.eecg.utoronto.ca</i> 
+					<p>Teaches and inspire students
+				</div>
+
+				<div class="box">
+					<h1>Wai Tung Ng</h1> 
+					<p><i>janders.eecg.utoronto.ca</i> 
+					<p>Professor I am working for over the summer. His research covers power electronics 
+				</div>
+			</article>-->
+		<div class="breakFloat"></div>
+		<div class="horizontalLine"></div>
+		<h1>Personal</h1>
+			<summary>
+			Sites that I find interesting and useful to read during my spare time including. Some of them provide good reference on topics such as HTML, colour schemes and other programming topics
+			</summary>
+			<!--<aside id="personal">
+				<span>Category:</span>
+				<span onmousedown="selectCategory('hockey')">Hockey</span> 
+				<span onmousedown="selectCategory('developer')">Developer</span>
+				<span onmousedown="selectCategory('life')">Life</span>
+			</aside>-->
+			
+			<article id="hockey">
+				<span class="subSectionTitle">Hockey</span>
+				<h3>NHL</h3>
+				<code>nhl.com</code>
+				<span>Whether you're a Canadian or not, you can never miss out on hockey! Follow and see how well the Maple Leafs are progressing (if they make it to the playoffs, hopefully!)</span>
+
+				<h3>How To Hockey</h3>
+				<code>howtohockey.com</code> 
+				<span>If you're a big fan of hockey, you would love this website. Provides tip and drills to improve your hockey skills at home and at the rink. Video tutorials are provided for those that want to learn from example</span>
+
+				<h3>Hockey World Blog</h3>
+				<code>hockeyworldblog.com</code>
+				<span>If you're a big fan of hockey, you would love this website. Provides tip and drills to improve your hockey skills at home and at the rink</span>
+			</article>
+
+			<article id="developer">
+				<span class="subSectionTitle">Developer</span>
+				<h3>MSDN Wheel of Colour</h3>
+				<code>msdn.microsoft.com/en-us/library/bb263947(v=vs.85).aspx</code> 
+				<span>Colour is one of the most important aspect of website presentation as it can convey a sense of warmth or coolness. The website provides a basic overview of how colour is preceived</span>
+
+				<h3>JS Fiddle</h3>
+				<code>jsfiddle.net/</code>
+				<span>An online, CSS, HTML and Javascript editor. Allows you to practice and experiment with your code right away. </span>
+			</article>
+
+			<article id="life">
+				<span class="subSectionTitle">Miscellaneous</span>
+				<h3>Thought Catalog</h3>
+				<code>thoughtcatalog.com</code> 
+				<span>One of the most inspirational websites written by inspirational writers. As a university student entering adulthood, in a new system, we're all bound to face our tough times entering this new stage. This website provides some inspiration, aspiration and even support whenever you need advice, support and counselling</span>
+			</article>
+
+			<div class="breakFloat"></div>
+
+		<nav class="mobileNav" style="background-color: white; position: relative; bottom: 5px border:none;">
+			<a href= "./about.html"><img src="./icons/about.png"></a>
+			<a href= "./projects.html"><img src="./icons/projects.png"></a>
+			<a href= "./courses.html"><img src="./icons/courses.png"></a>
+			<a href= "./resume.html"><img src="./icons/resume.png"></a>
+			<a href= "./links.html"><img src="./icons/links.png"></a>
+		</nav>
+
+		<footer>
+		<!--contact-->
+		<section>
+			<h1>Contact</h1>
+			<span><a href="http://ca.linkedin.com/pub/jason-wong/67/635/596/">LinkedIn</a></span> |
+			<span><a href="http://twitter.com/jasonwong_94">Twitter</a></span>
+			<br>
+			<span>jaw[dot]wong[at]mail[dot]utoronto[ca]</span> |
+			<span>416-624-7250</span>
+		</section>
+	
+		<!--info-->
+		<section> 
+			<h1>Information</h1>
+			<span><a href="http://ece.utoronto.ca">Electrical and Computer Engineering</a></span> |
+			<span>About This Site</span> 
+		</section>
+
+		<!--copyright -->
+		<section style="border-top-style:solid; border-color:white; border-width:1px">
+	
+		<span style="float:left">Site developed from scratch with lots of ECE love</span>
+		<span style="float:right">Copyright, Jason Wong</span>
+		</section>
+	</footer>
+
+	
+	</body>
+</HTML>
