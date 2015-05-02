@@ -1,0 +1,22 @@
+a> h1, div > h1{
+	color: rgba(142, 230, 2, 1);
+}
+
+p >b{
+	color:#5C9403;
+}
+
+article > div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color:#3B3B3B;
+}
+
+article > div:nth-child(even){
+	background-color: #F7F7F7;
+	border-color: green;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	margin-top: 15px;
+}

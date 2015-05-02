@@ -1,0 +1,120 @@
+
+#icons{
+	display:none;
+}
+
+#icons> a{
+	display:block;
+}
+
+#icons>a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+#icons>a:link{
+	text-decoration: none;
+	color: inherit;
+	display:block;
+}
+
+#icons>a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+#icons>a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+/*a{
+	clear:both;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: black;
+}*/
+
+body{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+a> img{
+	float:left;
+}
+
+a> summary{
+	margin-top: 5px;
+	display:inline-block;
+	width: 59%;
+	height: 115px;
+	/*background-color: 	#EEEEEE;
+	border: 1px solid black;*/
+	font-size: 12px;
+}
+
+
+img{
+	width: 30%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@font-face{
+	font-family: DejaVuSans;
+	src: url(Arimo-Regular.ttf);
+}
+
+.frontpageBox, .frontpageMessage{
+	position: relative;
+	font-family: 'DejaVuSans', 'Arial';
+	font-size: 14px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	vertical-align: middle;
+	text-align: left;
+	border-radius: 2px;
+	border-color: black;
+	box-shadow: 4px 0px 4px gray;
+	background-color: black;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0.4;
+}
+
+.frontpageBox{
+	background-color: white;
+	min-height: 1000px;
+	width: 500px;
+}
+
+
+h1{
+	text-transform: lowercase;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Trebuchet MS';
+}
+
+.scrollDescription{
+	display:none;
+}
+
+#description{
+	display:inline;
+}
+
+.fpIcon{
+	display:inline-block;
+	opacity: 0.3;
+}
+
+#banner{
+	display:none;
+}
