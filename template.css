@@ -1,0 +1,220 @@
+/*General format for various HTML tags regardless of device screen*/
+/*Fomatting modifies:
+	-Margin and padding
+	-Font colour and background
+	-Fomt family
+
+and include sthe ollowing tags: 			
+	<a>
+	<h1>, <h2>, <h3>
+	<header>
+	<footer>
+	<article>
+	<summary>
+	<table>, <th>, <tr>
+*/
+
+
+
+a.mainText:link, a.mainText:visited{
+	/*color: #2E8AE6;*/
+	color: #5C9403;
+	text-decoration: none;
+	font-family: 'Trebuchet MS';	
+
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color:#8EE602;
+	display:inline-block;
+	text-align:center;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a.mainText:hover, a.mainText:active{
+	text-decoration: none;
+	/*text-shadow:2px 2px 	#E6E6E6;*/
+	background-color: #7BC406;
+	color:white;
+	/*font-weight: bold;*/
+	text-shadow:1px 1px 1px gray;
+
+
+}
+
+h1{
+	color: #20AB0E;
+	text-align:center;
+}
+
+ a> h1, div > h1{
+ 	text-align: center;
+ }
+footer{
+	color: white;
+	border-top-style: solid;
+	border-color: 	#2E2E2E;
+	border-width: 1px;
+
+
+	background-color: #575757;
+	text-align: center;
+	font-family:"Tahoma";
+	
+	text-align: center;
+}
+
+	footer > section > h1{
+		color: #B4FF96;
+		text-align:right;
+		line-height: 2px;
+		text-align:center;
+		font-family:'Trebuchet MS';
+	}
+
+	footer > section > span>  b{
+		font-weight: lighter;
+		color: #7DFA34;
+		padding: 0px;
+	}
+
+	footer > section > span > a{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	footer > section{
+		/*border:1px solid black;*/
+		background-color: inherit;
+	}
+
+h3{
+	color: #7fcf01;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 22px;
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+
+p > b{
+	color: #7fcf01;
+}
+
+h2{
+	text-align: center;
+	font-weight: lighter;
+}
+
+h4{
+	/*color: #8EE602;*/
+	color:gray;
+	font-size: 18px;
+	font-weight:lighter;
+}
+
+.subSectionTitle{
+	color: #8EE602;
+	clear:both;
+	text-align:center;
+	display:block;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color:#8EE602;
+	background-color: white;
+}
+
+article{
+	clear:both;
+}
+
+center{
+	color: gray;
+}
+
+article > div:nth-child(even){
+	background-color: #F7F7F7;
+	border-color: green;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	margin-top: 15px;
+}
+
+article>h3{
+	color:#7fcf01;
+	font-size:26px;
+}
+
+aside> p> b{
+	color:#589000;
+}
+
+aside{
+	font-family: "Tahoma";
+	font-size: 14px;
+	margin-bottom: 15px;a
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float:left;
+	/*border: 1px solid #229922;
+	background-color:rgba(53, 210, 53, 125);*/
+	/*background-color:#C4F07F;*/
+	background-color:#e9ffd3;
+	color:#72ba00;
+	border-left: #C4F07F 1px solid;
+	padding-left: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	padding: 2px;
+	font-family: "DejaVuSans";
+	src: url(DejaVuSans.ttf);
+}
+
+table, th, tr{
+	border: 1px solid black;
+}
+
+nav{
+	/*position parameters*/
+	font-family: DejaVuSans;
+	src: url(DejaVuSans.ttf);
+	position: fixed;	/*negative in order to restore the original position */
+	top:0px;
+
+
+	/*display parameters*/
+	background-color: white;
+	color: black;
+	opacity:0.75;
+	/*background-color: #99FFCC;*/
+	/*color: #99FF66;*/
+	border-color: 	#2E2E2E;
+	border-bottom-style: solid;
+	border-width: 1px;
+	z-index: 20;
+	width:100%;
+}
+
+summary{
+	background-color: #ECFFEC;
+	color:#34BF69;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	margin-left: -7.5%;
+	margin-right: -7.5%;
+
+}
+
+.icon{
+	width:80px;
+	padding-right: 10px;
+}
