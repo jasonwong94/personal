@@ -32,6 +32,9 @@ a.mainText:link, a.mainText:visited{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #2db644;
+
+	-webkit-transition: color 0.5s, background 1.5s;
+	-transition:color 0.5s, background 1.5s;
 }
 
 a.mainText:hover, a.mainText:active{
@@ -119,7 +122,15 @@ h2{
 
 h4{
 	/*color: #8EE602;*/
-	color:#72ba00;
+	background-color:#72ba00;
+	color:white;
+	margin-left: -20px;
+	padding-left: 20px;
+	padding-top:5px;
+	padding-bottom: 5px;
+
+	border: #C4F07F 1px solid;
+	border-left: none;
 	font-size: 18px;
 	font-weight:lighter;
 }
@@ -223,4 +234,9 @@ summary{
 .icon{
 	width:80px;
 	padding-right: 10px;
+}
+
+kbd{
+	color:gray;
+	padding-top: 1px;
 }

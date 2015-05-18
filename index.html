@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" media='screen and (min-device-width: 721px)' href="template_desktop.css">
 		<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 720px)' href="template_mobile.css">
 		
-		<link rel="stylesheet" type="text/css", href="frontpage_template.css">
+		<!-- <link rel="stylesheet" type="text/css", href="frontpage_template.css"> -->
 		<link rel="stylesheet" type="text/css" href="template.css">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -90,49 +90,121 @@
 		</div>
 		<div style="text-align:right; font-size: 10px">Picture taken by Gabrielle Sebaldt</div>
 
-		<article id="description">
+		<article id="about">
 			<a id="aboutMeAnchor">
-				<div id="aboutDetails">
 				<h1><img src="./icons/about.png" class="icon">Welcome!</h1>
-				<div>
-					<p>I am an Electrical and Computer Engineering student from University of Toronto and a hockey enthusiast, currently in my third year. I have spent most of my life in Hong Kong, having attended elementary and high-school there. As an engineer, I love to understand the world in a more practical point of view and improve it by developing and designing ideas. Whether it is circuitary or software, I love to understand how the world has become so dependent on electronics- hence to this day, I am still indecisive whether I am a electrical or computer engineer
-					
-					<p>This site was developed to apply my HTML, CSS and as a foundation for web development during my free time
 
-					<p>As the world is full of mysteries, here are my interests
-					<p><b>Academic: </b>Electrical engineering- circuits (analog and digital) and control; Computer engineering- networks
+				<h3>Who am I?</h3>
+
+				<section>
+					<div class="infoBox">
+						<figure>
+							<img src="./icons/SubEduIcon.png">
+							<figcaption>University</figcaption>
+						</figure>
+						<br>University of Toronto, Class of 2016 + PEY!
+					</div>
+					<div class="infoBox">
+						<figure>
+							<img src="./icons/SubProIcon.png">
+							<figcaption>Program</figcaption>
+						</figure>
+						<br>Electrical & Computer Engineering
+					</div>
+					<div class="infoBox">
+						<figure>
+							<img src="./icons/SubInfoIcon.png">
+							<figcaption>Info</figcaption>
+						</figure>
+						<br>Joined engineering because I love to explore and understand the world from the technology perspective
+					</div>
+					<div class="infoBox">
+						<figure>
+							<img src="./icons/SubBioIcon.png">
+							<figcaption>Biography</figcaption>
+						</figure>
+						<br>Born and raised in Hong Kong
+					</div>
+					<div style="clear:both"></div>
+				</section>
+
+				<h3>What are my interests?</h3>
+				<section>
+					<div class="infoBox">Academic
+						<br>Electrical engineering- circuits (analog and digital) and control
+						<br>Computer engineering- networks
+					</div>
+					<div class="infoBox">Extra-Curricular
+						<br>Circuits and Robotics(Academic); 
+						<br>Programming and Web development(Personal)
+					</div>
+					<div style="clear:both"></div>
+				</section>
+			</a>
+		</article>
+				<!-- <div>
+					<p>I am an Electrical and Computer Engineering student from University of Toronto currently in PEY (Co-op term). I have spent most of my life in Hong Kong, having attended elementary and high-school there. 
 					
-					<p><b>Outside of Class: </b>Circuits and Robotics(Academic); Programming and Web development(Personal)
-					<p>Scroll down below to see a summary of the projects and courses I have done am doing (and click on the links) to find out more! 
+					<p>As an engineer, I love to understand the world in a more practical point of view and improve it by developing and designing ideas. Whether it is circuitary or software, I love to understand how the world has become so dependent on electronics- hence to this day, I am still indecisive whether I am a electrical or computer engineer.
+
+					
+					<!-- <p><b>Academic: </b>Electrical engineering- circuits (analog and digital) and control; Computer engineering- networks
+					
+					<p><b>Extra-Curriculars:</b>Circuits and Robotics(Academic); Programming and Web development(Personal)
+					<p>Scroll down below to see a summary of the projects and courses I have done am doing (and click on the links) to find out more!  -->
 					<img src="./Images/Cannonball.jpg" class="mainText">
 
-					<br>
 					<a class="mainText" href="./about.html">Find out more about me</a>
-				</div></a>
 				</div>
-
-			<a id="projectsAnchor"><div id="projectsDetails">
+				
+		<article id="projects"
+			<a id="projectsAnchor">
+				<div id="projectsDetails">
 				<h1><img src="./icons/projects.png" class="icon">Projects</h1>
+				<kbd>Why do this?</kbd>
 				<div>
-					As a student full of creativity and curioistiy, I am interested in learning and applying knowledge that I have learnt As an engineering student, this means developing a product and going through the design process- planning, building and debugging. Whenever I have time, my goal is to work on projects involving both software and hardware. 
+					I like to explore and understand the world outside of class. Combined with my engineering knowledge and creativity, I like to put my thinking hat on and come up with innovative ideas. I also like to combine projects that involve hardware and software.
 
-					<p><b>Software:</b> my goal is to improve my understanding of web and server scripting (HTML, CSS and Javascript and PHP); and to become familiar with common libraries such as GTK. Software projects include: Website development- both desktop and mobile; and GUI software development
-					<br>My mobile website (currently under development)</a> 
+					<kbd>What are my aims?</kbd>
+					<section>
+						<div class="infoBox">
+							<figure>
+								<img src="./icons/subSoftIcon.png">
+								<figcaption>Software</figcaption>
+							</figure>
+						</div>
+						<div class="infoBox">
+							<figure>
+								<img src="./icons/subHardIcon.png">
+								<figcaption>Hardware</figcaption>
+							</figure>
 
-					<p><b>Hardware:</b> my goal is to improve my application of hardware (muxes, RAM, etc) and to become familiar and apply concepts of electrical components. Hardware projects involve: a simple game utilizing a DE2 board; and basic understanding of common circuits with Arduino
+						</div>
+					</section>
+
+					<p><b>Software:</b> improve my understanding of web and server scripting (HTML, CSS and Javascript and PHP); and to become familiar with common libraries such as GTK. Software projects include: Website development- both desktop and mobile; and GUI software development
+
+					<p><b>Hardware:</b> improve application and apprication of hardware (muxes, RAM, etc) and to become familiar and apply concepts of electrical components. Hardware projects involve: a simple game utilizing a DE2 board; and basic understanding of common circuits with Arduino
 
 					<br>
 					<a class="mainText" href="./projects.html">See more of my projects</a>
-				</div>
-			</div></a>
-
+				</div></a>
+		</article>
+		<article id="courses">
 			<a id="coursesAnchor"><div id="coursesDetails">
 				<h1><img src="./icons/courses.png" class="icon">Skule Life/Courses</h1>
+				<kbd>What I have done so far?</kbd>
 				<div>
-					As an engineering student, I am interested in designing and creating products. Currently I am executive invovled in 2 design clubs: Spark and University of Toronto Robotics Association. My goal is to gain exposure to circuitary and micro-controllers while applying the skills and knowledge into ideas
-					
-					<p><b>Areas of Interest: </b>circuits and robotics
-					<p><b>Extra-curriculars: </b>Spark, UTRA, Intramurals (Hockey and Volleyball)
+					I am an executive invovled in 2 design clubs: Spark and University of Toronto Robotics Association. My goal is to gain exposure to circuitary and micro-controllers while applying the skills and knowledge into ideas
+
+					<section>
+						<div class="infoBox">UnERD</div>
+						<div class="infoBox">Spark Design Club</div>
+						<div class="infoBox">UTRA</div>
+						<div class="infoBox">Intramurals</div>
+					</section>
+
+					<div style="clear:both"></div>
 
 					<br><img src="./Images/Combat_construction.jpg" class="mainText">
 
@@ -143,10 +215,15 @@
 
 			<a id="resumeAnchor"><div id="resumeDetails">
 				<h1><img src="./icons/resume.png" class="icon">Resume</h1>
+				<kbd>Where am I now?</kbd>
 				<div>
-					My resume is available in both HTML and PDF format. Currently I am planning to do PEY and applying for jobs. As a creative engineer, I love jobs involving creativity, designing and building from the bottom to the top! 
+					<p>I am currently working as a Software Developer for Desire2Learn in Kitchener
+					
+					<kbd>What about my experience?</kbd>
+					<p>My resume is available in both HTML and PDF format. Currently I am planning to do PEY and applying for jobs. As a creative engineer, I love jobs involving creativity, designing and building from the bottom to the top! 
 
-					<p><b>Summer 2014 : </b>I was a research assistant under Professor W.T. Ng from the VLSI group. My goal is to familarize myself with CAD software used in PCB design and have a better understand of the datashet for compoennts
+
+					<!-- <p><b>Summer 2014 : </b>I was a research assistant under Professor W.T. Ng from the VLSI group. My goal is to familarize myself with CAD software used in PCB design and have a better understand of the datashet for compoennts -->
 
 					<p>I have previous work experience with Standard Chartered Bank and YMCA Camping. In additional, I have developed personal and technical skills from undergraduate courses, such as using IDEs and C/C++. Currently I am trying to improve on my programming langauge skills.
 
@@ -154,7 +231,7 @@
 					<a class="mainText" href="./resume.html">Check out my experience</a>
 				</div>
 			</div></a>
-
+		</article>
 			<a id="linksAnchor"><div id="linksDetails">
 				<h1><img src="./icons/links.png" class="icon">Links</h1>
 				<div>
@@ -167,11 +244,15 @@
 
 			<a id="contactAnchor"><div id="contactDetails">
 				<h1><img src="./icons/contact.png" class="icon">Contact</h1>
+				<kbd>Where would you find me?</kbd>
 				<div>
 					Feel free to contact me to express your opinions about the website design. My design philisophy is: simplicity- keep things mininmal and  not to overdo anything.
 
-					<br><b>Email:</b> jaw[dot]wong[at]mail[dot]utoronto[dot] ca
-					<br><b>Twitter:</b>[at]jason_wong_94
+					<section>
+						<div class="infoBox">Email</div>
+						<div class="infoBox">Twitter</div>
+						<div class="infoBox">Git</div>
+					</section>
 
 					<br>
 					<a class="mainText" target="_blank" href="./resume_text.html">Contact Me</a>

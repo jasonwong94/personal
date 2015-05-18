@@ -458,6 +458,11 @@ article > h3{
 	width:50%;
 }
 
+kbd{
+	font-size:20px;
+	display:block;
+}
+
 /*.table_format {background-color: #70B8FF; border: 1px solid white;}
 .table_subtable {border:1px solid black;}
 .td_subtable_alt1 {background-color: #66CCFF; border:1px solid black; color: black; font-family:Helvatica; font-size:14px;}
