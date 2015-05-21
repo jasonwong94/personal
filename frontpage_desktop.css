@@ -241,6 +241,7 @@ section{
 	border-radius: 5px;
 	margin: 5px;
 	width: 200px;
+	word-wrap: break-word;
 }
 
 a> h1, div > h1{

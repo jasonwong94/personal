@@ -12,11 +12,12 @@ article > div{
 	color:#3B3B3B;
 }
 
-article > div:nth-child(even){
+/*article > div:nth-child(even){
 	background-color: #F7F7F7;
 	border-color: green;
 	border-top-style: dashed;
 	border-bottom-style: dashed;
 	border-width: 1px;
 	margin-top: 15px;
-}
+}*/
+
