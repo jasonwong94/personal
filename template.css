@@ -103,7 +103,8 @@ footer{
 	}
 
 h3{
-	color: #7fcf01;
+	/*color: #7fcf01;*/
+	color:black	;
 	font-weight: lighter;
 	text-align: center;
 	font-size: 22px;
@@ -122,17 +123,19 @@ h2{
 
 h4{
 	/*color: #8EE602;*/
-	background-color:#72ba00;
-	color:white;
-	margin-left: -20px;
+	color: #72ba00;
+	/*background-color:#72ba00;
+	color:white;*/
+	/*margin-left: -20px;
 	padding-left: 20px;
 	padding-top:5px;
 	padding-bottom: 5px;
 
 	border: #C4F07F 1px solid;
-	border-left: none;
+	border-left: none;*/
 	font-size: 18px;
-	font-weight:lighter;
+	/*font-weight:lighter;*/
+	text-align:center;
 }
 
 .subSectionTitle{
@@ -164,7 +167,8 @@ article > div:nth-child(even){
 }
 
 article>h3{
-	color:#7fcf01;
+	/*color:#7fcf01;*/
+	color: black;
 	font-size:26px;
 }
 
@@ -237,6 +241,7 @@ summary{
 }
 
 kbd{
-	color:gray;
+	/*color:gray;*/
+	color:#7fcf01;
 	padding-top: 1px;
 }

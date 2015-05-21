@@ -235,6 +235,9 @@ br{
 
 img {
 	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
 }
 
 button{
@@ -368,10 +371,10 @@ h1{
 	margin-right:27.5%;*/
 	float: none;
 
-	border-color:#3fa216;
+	/*border-color:#3fa216;
 	border-style:solid;
 	border-width:1px;
-	border-radius:5px;
+	border-radius:5px;*/
 }
 
 .box{
