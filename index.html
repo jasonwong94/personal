@@ -15,16 +15,91 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<nav>
+	<!-- <nav>
 		<div class= "headerLeft">Jason Wong, <span>ECE 1T6 at </span>University of Toronto</div>
-		<!--<div class= "headerRight">Single Page | Multi Page</div>
+		<div class= "headerRight">Single Page | Multi Page</div>
 		<div class= "headerRight">About This Website</div>
-		<div class= "headerRight"><< Font Size: >></div>-->
+		<div class= "headerRight"><< Font Size: >></div>
 		<div class="breakFloat"></div>
-	</nav>
+	</nav> -->
 
 	<body>
+		<main>
+		<form style="display: block">
+			<h1>Hello, </h1>
+			<h2>my name is: </h2>
+			<input type="text" placeholder="Your name here">
+			<button value="submit" class="submit">Submit</button>
+			<!-- <button value="skip" class="skip">skip</button> -->
+		</form>
+
+		What may I interest you today, ?
 		<div id ="banner">
+			<div>
+				<div class="column" id="about">
+				<a href="#aboutMeAnchor">
+					<h1></h1>
+					<img src="./icons/about.png" class="icons">
+					<article>
+					</article>	
+				</a>
+				<p>About Me</p>
+			</div>
+
+			<div class="column" id="projects" >
+				<a href="#projectsAnchor" >
+					<h1></h1>
+					<img src="./icons/projects.png" class="icons" >
+					<article>
+					</article>
+				</a>
+				<p>Projects</p>
+			</div>
+
+			<div class="column"  id="courses">
+				<a href="#coursesAnchor">
+					<h1></h1>
+					<img src="./icons/courses.png" class="icons">
+					<article>
+					</article>
+				</a>
+				<p>Courses</p>
+			</div>
+
+			<div class="column" id="resume">
+				<a href="#resumeAnchor">
+					<h1></h1>
+					<img src="./icons/resume.png" class="icons">
+					<article>
+					</article>
+				</a>
+				<p>Resume</p>
+			</div>
+
+			<div class="column" id="links">
+				<a href="#linksAnchor">
+					<h1></h1>
+					<img src="./icons/links.png" class="icons">
+					<article>
+					</article>
+				</a>
+				<p>Links</p>
+			</div>
+
+			<div class="column">
+				<a href="#contactAnchor">
+					<h1></h1>
+					<img src="./icons/contact.png" id="contact" class="icons" >
+					<article>
+					</article>
+				</a>
+				<p>Contact</p>
+			</div>
+				</div>
+		</div>
+		</main>
+
+		<!-- <div id ="banner">
 			<img src="./Images/Cover_Photo_MM_2.png" style="opacity: 0.6; position:relative; width:100%">
 			<div style="position: absolute; top: 55%; left: 2.5%; right: 2.5%; background-color:rgba(255, 255, 255, 0.05); min-width: 768px;">
 				<div class="column" id="about">
@@ -89,10 +164,10 @@
 				</div>
 		</div>
 		<div style="text-align:right; font-size: 10px">Picture taken by Gabrielle Sebaldt</div>
-
+ -->
 		<article id="about">
 			<a id="aboutMeAnchor">
-				<h1><img src="./icons/about.png" class="icon">Welcome!</h1>
+				<h2><img src="./icons/about.png" class="icon">Welcome!</h2>
 
 				<h3>Who am I?</h3>
 
@@ -154,12 +229,11 @@
 					<div style="clear:both"></div>
 				</section>
 
-				<br><a class="mainText" href="./about.html">Find out more about me</a>
 			</a>
 		</article>				
 		<article id="projects">
 			<a id="projectsAnchor">
-				<h1><img src="./icons/projects.png" class="icon">Projects</h1>
+				<h2><img src="./icons/projects.png" class="icon">Projects</h2>
 				<h3>Why do this?</h3>
 					I like to explore and understand the world outside of class. Combined with my engineering knowledge and creativity, I like to put my thinking hat on and come up with innovative ideas. I also like to combine projects that involve hardware and software.
 
@@ -190,7 +264,7 @@
 		</article>
 		<article id="courses">
 			<a id="coursesAnchor">
-				<h1><img src="./icons/courses.png" class="icon">Skule Life/Courses</h1>
+				<h2><img src="./icons/courses.png" class="icon">Skule Life/Courses</h2>
 				<h3>What I have done so far?</h3>
 				I am an executive invovled in 2 design clubs: Spark and University of Toronto Robotics Association. My goal is to gain exposure to circuitary and micro-controllers while applying the skills and knowledge into ideas
 				<p>
@@ -232,7 +306,7 @@
 		</article>
 		<article>
 			<a id="resumeAnchor">
-				<h1><img src="./icons/resume.png" class="icon">Resume</h1>
+				<h2><img src="./icons/resume.png" class="icon">Resume</h2>
 				<h3>Where am I now?</h3>
 				<section>
 					<div class="infoBox">
@@ -259,15 +333,15 @@
 					<a class="mainText" href="./resume.html">Check out my experience</a>
 			</a>
 		</article>
-		<article>
+		<!-- <article>
 			<a id="linksAnchor">
-				<h1><img src="./icons/links.png" class="icon">Links</h1>
+				<h2><img src="./icons/links.png" class="icon">Links</h2>
 					Visit some of my favourite websites- websites that I like to go on and visit ocassionally for useful or intriguing information
 
 					<br>
 					<a class="mainText" href="./links.html">Know my favourite other websites</a>
 			</a>
-		</article>
+		</article> -->
 		<article>
 			<a id="contactAnchor">
 				<h1><img src="./icons/contact.png" class="icon">Contact</h1>
@@ -315,19 +389,12 @@
 			<span>jaw[dot]wong[at]mail[dot]utoronto[ca]</span> |
 			<span>416-624-7250</span>
 		</section>
-	
-		<!--info-->
-		<section> 
-			<h1>Information</h1>
-			<span><a href="http://ece.utoronto.ca">Electrical and Computer Engineering</a></span> |
-			<span>About This Site</span> 
-		</section>
 
 		<!--copyright -->
-		<section style="border-top-style:solid; border-color:white; border-width:1px">
+		<section>
 	
-		<span style="float:left">Site developed from scratch with lots of ECE love</span>
-		<span style="float:right">Copyright, Jason Wong</span>
+		<span>Site developed from scratch with lots of ECE love</span>
+		<span>Copyright, Jason Wong</span>
 		</section>
 	</footer>
 
