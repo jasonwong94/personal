@@ -13,6 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="template.css">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="website.controller.js"></script>
 	</head>
 
 	<!-- <nav>
@@ -23,12 +26,12 @@
 		<div class="breakFloat"></div>
 	</nav> -->
 
-	<body>
+	<body ng-app="WebsiteApp" ng-controller="WebsiteController as view">
 		<main>
 		<form style="display: block">
 			<h1>Hello, </h1>
 			<h2>my name is: </h2>
-			<input type="text" placeholder="Your name here">
+			<input type="text" placeholder="Your name here" ng-model="view.GreetName">
 			<button value="submit" class="submit">Submit</button>
 			<!-- <button value="skip" class="skip">skip</button> -->
 		</form>
@@ -381,7 +384,6 @@
 					<a class="mainText" target="_blank" href="./resume_text.html">Contact Me</a>
 			</a>
 		</article>
-
 		
 	<footer>
 		<!--copyright -->
