@@ -31,12 +31,12 @@
 		<form style="display: block">
 			<h1>Hello, </h1>
 			<h2>my name is: </h2>
-			<input type="text" placeholder="Your name here" ng-model="view.GreetName">
-			<button value="submit" class="submit">Submit</button>
+			<input type="text" placeholder="Your name here" ng-model="view.Name">
+			<button value="submit" class="submit" ng-click="view.enterUser(view.Name)">Submit</button>
 			<!-- <button value="skip" class="skip">skip</button> -->
 		</form>
 
-		What may I interest you today, ?
+		What may I interest you today, {{view.Name}}?
 		<div id ="banner">
 			<div>
 				<div class="column" id="about">
@@ -170,7 +170,7 @@
  -->
 		<article id="about">
 			<a id="aboutMeAnchor">
-				<h2><img src="./icons/about.png" class="icon">Welcome!</h2>
+				<h2><img src="./icons/about.png" class="icon">Welcome, {{view.Name}}!</h2>
 
 				<h3>Who am I?</h3>
 
@@ -335,7 +335,7 @@
 					<p>I have previous work experience with Standard Chartered Bank and YMCA Camping. In additional, I have developed personal and technical skills from undergraduate courses, such as using IDEs and C/C++. Currently I am trying to improve on my programming langauge skills.
 
 					<br>
-					<a class="mainText" href="./resume.html">Check out my experience</a>
+					<a class="mainText" href="./resume.html">View my resume, {{view.Name}}</a>
 			</a>
 		</article>
 		<!-- <article>
