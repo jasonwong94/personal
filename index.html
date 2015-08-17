@@ -32,6 +32,11 @@
 			<h1>Hello, </h1>
 			<h2>my name is: </h2>
 			<input type="text" placeholder="Your name here" ng-model="view.Name">
+			<h2>and I am a: </h2>
+			<select>
+				<option ng-repeat="type in view.VisitorType" value="{{type}}">{{type}}</option>
+			</select>
+
 			<button value="submit" class="submit" ng-click="view.enterUser(view.Name)">Submit</button>
 			<!-- <button value="skip" class="skip">skip</button> -->
 		</form>
@@ -262,7 +267,7 @@
 					<p><b>Hardware:</b> improve application and apprication of hardware (muxes, RAM, etc) and to become familiar and apply concepts of electrical components. Hardware projects involve: a simple game utilizing a DE2 board; and basic understanding of common circuits with Arduino
 
 					<br>
-					<a class="mainText" href="./projects.html">See more of my projects</a>
+					<a class="mainText" href="">See more of my projects</a>
 			</a>
 		</article>
 		<article id="courses">
@@ -304,7 +309,7 @@
 					<br><img src="./Images/Combat_construction.jpg" class="mainText">
 
 					<br>
-					<a class="mainText" href="./courses.html">Know my academic interests</a>
+					<a class="mainText" href="">Know my academic interests</a>
 			</a>
 		</article>
 		<article>
@@ -335,7 +340,7 @@
 					<p>I have previous work experience with Standard Chartered Bank and YMCA Camping. In additional, I have developed personal and technical skills from undergraduate courses, such as using IDEs and C/C++. Currently I am trying to improve on my programming langauge skills.
 
 					<br>
-					<a class="mainText" href="./resume.html">View my resume, {{view.Name}}</a>
+					<a class="mainText" href="">View my resume, {{view.Name}}</a>
 			</a>
 		</article>
 		<!-- <article>
@@ -381,7 +386,7 @@
 					</section>
 
 					<br>
-					<a class="mainText" target="_blank" href="./resume_text.html">Contact Me</a>
+					<a class="mainText" target="_blank" href="">Contact Me</a>
 			</a>
 		</article>
 		
