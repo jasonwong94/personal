@@ -18,17 +18,9 @@
 		<script src="website.controller.js"></script>
 	</head>
 
-	<!-- <nav>
-		<div class= "headerLeft">Jason Wong, <span>ECE 1T6 at </span>University of Toronto</div>
-		<div class= "headerRight">Single Page | Multi Page</div>
-		<div class= "headerRight">About This Website</div>
-		<div class= "headerRight"><< Font Size: >></div>
-		<div class="breakFloat"></div>
-	</nav> -->
-
 	<body ng-app="WebsiteApp" ng-controller="WebsiteController as view">
 		<main>
-		<form style="display: block">
+		<form style="display: block" ng-show="!view.FormSubmitted">
 			<h1>Hello, </h1>
 			<h2>my name is: </h2>
 			<input type="text" placeholder="Your name here" ng-model="view.Name">
@@ -37,12 +29,12 @@
 				<option ng-repeat="type in view.VisitorType" value="{{type}}">{{type}}</option>
 			</select>
 
-			<button value="submit" class="submit" ng-click="view.enterUser(view.Name)">Submit</button>
-			<!-- <button value="skip" class="skip">skip</button> -->
+			<button class="submit" ng-click="view.submitUser(view.Name)">Submit</button>
+			<button class="skip" ng-click="view.skipSubmit()">Skip</button>
 		</form>
-
-		What may I interest you today, {{view.Name}}?
-		<div id ="banner">
+		
+		<div ng-show="view.FormSubmitted">
+			<h2>What may I interest you today, {{view.Name}}?</h2>
 			<div>
 				<div class="column" id="about">
 				<a href="#aboutMeAnchor">
