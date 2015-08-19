@@ -3,18 +3,69 @@ $primary-font-color: #63CE11;
 $secondary-font-color: black;
 
 $button-border: 1px solid #70A218;
-$button-background-color: #E1FDB3l;
+$button-background-color: #E1FDB3;
+$button-width: 200px;
+
+$input-border-hover: 1px solid green;
+$horizontal-primary-line-border: 1px solid #2E2E2E;
+$horizontal-secondary-line-border: 1px solid gray;
+$border-curve-radius: 10px;
 
 $font-list: Helvetica, Arial;
 
 body{
+	margin: 0px;
+	padding: 0px;
 	font-family: $font-list;
 	color: $secondary-font-color;
 };
 
+form{
+	text-align: center;
+
+	> button{
+		font-size: 2.5em;
+		border-radius: 10px;
+		display: block;
+	}
+}
+
+button{
+	border: $button-border;
+	background-color: $button-background-color;
+	text-align: center;
+	border-radius: $border-curve-radius;
+	width: $button-width;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input, select{
+	border: $horizontal-secondary-line-border;
+	font-size: 2em;
+	text-align: center;
+	width: 40%;
+	border-radius: $border-curve-radius;
+}
+
+article{
+	border-top: $horizontal-primary-line-border;
+}
+
+footer{
+	color: white;
+	border-top: $horizontal-primary-line-border;
+	background-color: #575757;
+	text-align: center;
+}
+
 main{
 	padding-top: 40px;
 	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
 }
 
 h1{
@@ -34,4 +85,5 @@ h3{
 
 a{
 	text-decoration: none;
+	color: $primary-font-color;
 }
