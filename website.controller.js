@@ -6,8 +6,11 @@ function WebsiteController(){
 	var viewInstance = this;
 
 	// variables
-	viewInstance.Name = null;
-	viewInstance.VisitorType = VisitorType;
+	viewInstance.VisitorName = null;
+	viewInstance.VisitorType = VisitorList[1];
+
+	viewInstance.Type = VisitorList;
+	viewInstance.Interests = Interests;
 	viewInstance.FormSubmitted = false;
 
 	// functions
@@ -31,12 +34,22 @@ function WebsiteController(){
 		viewInstance.FormSubmitted = true;
 		return;
 	}
+
 }
 
-var VisitorType = [
+var VisitorList = [ 
 	'Recruiter',
 	'Visitor',
 	'Professor',
 	'Friend',
 	'NyanCat'
 ];
+
+
+var Interests = {
+	'Recruiter' : 	[ 0, 0, 0, 0, 1],
+	'Visitor' : 	[ 0, 0, 0, 0, 1],
+	'Professor' : 	[ 0, 0, 0, 0, 1],
+	'Friend' : 		[ 0, 0, 0, 0, 1],
+	'NyanCat' : 	[ 0, 0, 0, 0, 1]
+};
