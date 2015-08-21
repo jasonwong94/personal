@@ -34,9 +34,20 @@
 		</form>
 		
 		<div ng-show="view.FormSubmitted">
-			<h2>What may I interest you in today, {{view.Name}}?</h2>
+			<h2>What may I interest you in today, {{view.VisitorName}}?</h2>
 			<h3>I believe the links shaded in green maybe of interest to you!</h3>
-			<div>
+
+			<div ng-repeat="item in view.MenuItem">
+				<div class="column">
+					<a href="{{item.link}}">
+					<h1></h1>
+					<img ng-src="{{item.image}}" class="icons">
+					</a>
+					<p> {{item.name}} </p>
+				</div>
+			</div>
+
+			<!-- <div>
 				<div class="column" id="about">
 				<a href="#aboutMeAnchor">
 					<h1></h1>
@@ -84,7 +95,7 @@
 				</a>
 				<p>Contact</p>
 			</div>
-			</div>
+			</div> -->
 		</div>
 		</main>
 
@@ -253,7 +264,7 @@
 					<p>I have previous work experience with Standard Chartered Bank and YMCA Camping. In additional, I have developed personal and technical skills from undergraduate courses, such as using IDEs and C/C++. Currently I am trying to improve on my programming langauge skills.
 
 					<br>
-					<a class="mainText" href="">View my resume, {{view.Name}}</a>
+					<a class="mainText" href="">View my resume, {{view.VisitorName}}}</a>
 					<section>
 						<a class="mainText" href="">HTML</a>
 						<a class="mainText" href="">PDF</a>
