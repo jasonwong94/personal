@@ -1,0 +1,106 @@
+$title-font-color: darkgray;
+$primary-font-color: #63CE11;
+$secondary-font-color: black;
+
+$button-border: 1px solid #70A218;
+$button-background-color: #E1FDB3;
+$button-width: 500px;
+
+$input-border-hover: 1px solid green;
+$horizontal-primary-line-border: 1px solid #2E2E2E;
+$horizontal-secondary-line-border: 1px solid gray;
+$border-curve-radius: 10px;
+
+$font-list: Trebuchet MS, Helvetica, Arial;
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: $font-list;
+	color: $secondary-font-color;
+};
+
+form{
+	text-align: center;
+
+	> button{
+		font-size: 2.5em;
+		border-radius: 10px;
+		display: block;
+	}
+}
+
+button{
+	border: $button-border;
+	background-color: $button-background-color;
+	text-align: center;
+	border-radius: $border-curve-radius;
+	width: $button-width;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input, select{
+	border: $horizontal-secondary-line-border;
+	color: $title-font-color;
+	font-size: 2em;
+	text-align: center;
+	width: 40%;
+	border-radius: $border-curve-radius;
+	background-color: transparent;
+}
+
+input:hover{
+	border: $input-border-hover;
+}
+
+article{
+	border-top: $horizontal-primary-line-border;
+}
+
+footer{
+	color: white;
+	border-top: $horizontal-primary-line-border;
+	background-color: #575757;
+	text-align: center;
+}
+
+main{
+	padding-top: 40px;
+	height: 100%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 70%l
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	font-weight: lighter;
+}
+
+h1{
+	color: $title-font-color;
+	font-size: 5em;
+	font-weight: bolder;
+}
+
+h2{
+	color: $primary-font-color;
+	font-size: 2em;
+}
+
+h3{
+	color: $secondary-font-color;
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: $primary-font-color;
+}

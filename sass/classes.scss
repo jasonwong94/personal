@@ -1,0 +1,19 @@
+@import 'elements';
+main{
+  .column{
+  display: block;
+  float: left;
+  border-right: $horizontal-secondary-line-border;
+  }
+
+  .menuIcon{
+    width: 70%;
+    display: inline-block;
+  }
+}
+
+.infoBox{
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
