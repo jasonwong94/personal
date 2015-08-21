@@ -31,8 +31,14 @@ input, select {
   border-radius: 10px;
   background-color: transparent; }
 
-input:hover {
-  border: 1px solid green; }
+input:hover, select:hover {
+  border: 1px solid green;
+  box-shadow: none;
+  outline: none;
+  color: green; }
+
+input:hover, select:focus {
+  outline: none; }
 
 article {
   border-top: 1px solid #2E2E2E; }
@@ -41,7 +47,8 @@ footer {
   color: white;
   border-top: 1px solid #2E2E2E;
   background-color: #575757;
-  text-align: center; }
+  text-align: center;
+  height: 30%; }
 
 main {
   padding-top: 40px;
@@ -51,7 +58,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%l; }
+  width: 70%; }
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
@@ -83,7 +90,13 @@ main .menuIcon {
   width: 70%;
   display: inline-block; }
 
+form .skip {
+  border: 1px solid gray;
+  background-color: transparent; }
+
 .infoBox {
   margin: 5px;
   width: 200px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  color: black;
+  display: inline; }

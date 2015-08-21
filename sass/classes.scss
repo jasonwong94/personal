@@ -12,8 +12,16 @@ main{
   }
 }
 
+form{
+  .skip{
+    border: $horizontal-secondary-line-border;
+    background-color: transparent;
+  }
+}
 .infoBox{
   margin: 5px;
   width: 200px;
   border-radius: 5px;
+  color: $secondary-font-color;
+  display: inline;
 }

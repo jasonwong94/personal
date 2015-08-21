@@ -52,8 +52,15 @@ input, select{
 	background-color: transparent;
 }
 
-input:hover{
+input:hover, select:hover{
 	border: $input-border-hover;
+	box-shadow: none;
+	outline: none;
+	color: green;
+}
+
+input:hover, select:focus{
+	outline: none;
 }
 
 article{
@@ -65,6 +72,7 @@ footer{
 	border-top: $horizontal-primary-line-border;
 	background-color: #575757;
 	text-align: center;
+	height: 30%;
 }
 
 main{
@@ -76,7 +84,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-	width: 70%l
+	width: 70%;
 }
 
 h1, h2, h3, h4, h5, h6{
